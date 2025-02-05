@@ -14,7 +14,7 @@ public class ImmutableAddress {
 
     @Override
     public String toString() {
-        return "ImmutableAddress{" +
+        return "Address{" +
                 "value='" + value + '\'' +
                 '}';
     }
