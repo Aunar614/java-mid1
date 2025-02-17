@@ -6,9 +6,8 @@ public class MainV2 {
 
     public static void main(String[] args) throws NetworkClientExceptionV2 {
         Scanner sc = new Scanner(System.in);
-        // NetworkServiceV1_1 networkService = new NetworkServiceV1_1();
-        // NetworkServiceV1_2 networkService = new NetworkServiceV1_2();
-        NetworkServiceV2_1 networkService = new NetworkServiceV2_1();
+        // NetworkServiceV2_1 networkService = new NetworkServiceV2_1();
+        NetworkServiceV2_2 networkService = new NetworkServiceV2_2();
 
         while (true) {
             System.out.print("전송할 문자 : ");
