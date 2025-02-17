@@ -24,6 +24,7 @@ public class NetworkClientV2 {
             throw new NetworkClientExceptionV2("sendError", address + " 서버에 데이터 전송 실패 : " + data);
             // 중간에 다른 예외가 발생했다고 가정
             // throw new RuntimeException("ex");
+            // finally 를 통해 disconnect() 실행 후 프로그램 종료
         }
 
         // 전송 성공
